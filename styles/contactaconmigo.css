@@ -1,0 +1,64 @@
+section#contactaconmigo {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    width: 490px;
+    float: left;
+}
+
+section#contactaconmigo h1{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+section#contactaconmigo label#nombre{
+    margin-right: 20px;
+    color: white;
+}
+
+section#contactaconmigo label#asunto{
+    margin-right: 26px;
+    color: white;
+}
+
+section#contactaconmigo label#mensaje{
+    margin-right: 21px;
+    margin-left: -6px;
+    color: white;
+}
+
+section#contactaconmigo label#email{
+    margin-right: 20px;
+    margin-left: 5px;
+    color: white;
+}
+
+section#contactaconmigo input#nombre{
+    margin-bottom: 25px;
+}
+
+section#contactaconmigo input#asunto{
+    margin-bottom: 25px;
+}
+
+section#contactaconmigo input#email{
+    margin-bottom: 25px;
+    margin-left: 4px;
+}
+
+section#contactaconmigo button{
+    margin-top: 40px;
+}
+
+@media (max-width: 800px) {
+    section#contactaconmigo{
+        flex-direction: column;
+        width: 290px;
+        height: 500px;
+        border-right: 0px;
+    }
+}

@@ -1,0 +1,44 @@
+section#contacto {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    float: left;
+    border-right: 3px solid rgb(37, 37, 37);
+}
+
+section#contacto h1{
+    color: white;
+    margin-bottom: 5px;
+}
+
+section#contacto p{
+    color: white;
+    float: left;
+    margin-right: 10px;
+    margin-left: 0px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+section#contacto img{
+    float: left;
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+    section#contacto{
+        flex-direction: column;
+        width: 290px;
+        height: 500px;
+        border-right: 0px;
+        border-bottom: 5px solid black;
+    }
+}

@@ -1,0 +1,9 @@
+@media (max-width: 800px) {
+    .contenedor{
+        flex-direction: column;
+        width: 300px;
+        height: 3850px;
+        border: black 5px solid;
+    }
+}
+

@@ -1,0 +1,30 @@
+section#imagen {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    width: 190px;
+    float: left;
+    border-right: 3px solid rgb(37, 37, 37);
+}
+
+
+@media (max-width: 800px) {
+    section#imagen{
+        flex-direction: column;
+        width: 290px;
+        height: 190px;
+        border: none;
+        background-color: black;
+    }
+}
+
+@media (max-width: 800px){
+    section#imagen img{
+        margin-left: 45px;
+        height: 190px;
+        width: 200px; 
+    }
+}

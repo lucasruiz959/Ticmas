@@ -1,0 +1,38 @@
+section#informacion {
+    background-image: url(https://paletasdecolores.com/wp-content/uploads/2022/07/paleta-de-colores-4493.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    width: 600px;
+    float: left;
+    min-width: none;
+}
+
+section#informacion h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 35px;
+}
+
+section#informacion h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1rem;
+    color: white;
+}
+
+@media (max-width: 800px) {
+    section#informacion{
+        flex-direction: column;
+        width: 290px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 800px) {
+    section#informacion h1{
+        margin-bottom: 20px;
+    }
+}

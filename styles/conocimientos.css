@@ -1,0 +1,68 @@
+section#conocimientos {
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    width: 190px;
+    float: left;
+    border-bottom: 5px solid rgb(37, 37, 37);
+    border-right: 3px solid rgb(37, 37, 37);
+}
+
+section#conocimientos h1{
+    font-family: 'Merienda', cursive;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    font-size: 15px;
+}
+
+section#conocimientos ul{
+    font-size: 15px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+section#conocimientos li{
+    margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+    section#conocimientos{
+        flex-direction: column;
+        width: 290px;
+        height: 450px;
+        border-right: 0px;
+    }
+}
+
+@media (max-width: 800px) {
+    section#conocimientos h1{
+        font-family: 'Merienda', cursive;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 800px) {
+    section#conocimientos ul{
+        margin-left: 30px;
+        margin-right: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px) {
+    section#conocimientos li{
+        margin-top: 25px;
+        font-size: 17px;
+    }
+}
+
+

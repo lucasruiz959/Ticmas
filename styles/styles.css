@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(70, 70, 70);
+}
+
+.contenedor{
+    width: 800px;
+    height: 1710px;
+    border: black 5px solid;
+    margin: 0px auto;
+    flex-direction: row;
+}
+
